@@ -264,9 +264,9 @@ section
 	float: left;
 }
 
-.content article:first-child
+article.first
 {
-	margin: 0 15px 0 0;
+	padding: 0 20px 0 0;
 }
 
 
@@ -354,7 +354,17 @@ section
 	width: 33.33333333%;
 	text-align:center;
 	box-sizing:border-box;
-	padding: 20px;
+	padding: 0;
+}
+
+.loans
+{
+	text-align:left;
+}
+
+.paying
+{
+	text-align:right;
 }
 
 /* TESTIMONIAL
@@ -598,6 +608,12 @@ div.modal
 		width: 80%;
 	}
 	
+	.accomplishment, .loans, .paying
+	{
+		padding: 20px;
+		text-align:center;
+	}
+	
 	.row .modal-social-media li
 	{
 		margin: 0 20px 0 0;
@@ -681,7 +697,10 @@ div.modal
 		padding-right: 15px;
 	}
 	
-	
+	.social-media li
+	{
+		margin: 0 0 0 10px;
+	}
 	
 }
 
