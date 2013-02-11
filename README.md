@@ -6,7 +6,7 @@ Test site for interview
 Features
 =========
 
- - Responsive design
+ - Responsive design (Using foundation framework)
  - CSS3 + HTML5
 
 Tested In
